@@ -41,6 +41,30 @@
                 <string>soundcloud</string>
                 <string>fb-messenger</string>
                 <string>instagram</string>
+                <plist>
+<dict>
+
+  <!-- Add or merge this bit -->
+  <key>CFBundleIcons~ipad</key>
+  <dict>
+    <key>CFBundleAlternateIcons</key>
+    <dict>
+      <!-- The name you use in code -->
+      <key>icon-phonegap</key>
+      <dict>
+        <key>UIPrerenderedIcon</key>
+        <true/>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <!-- The actual filenames. Don't list the @2x/@3x files here, and you can use just the biggest one if you like -->
+          <string>icon-phonegap-60</string>
+        </array>
+      </dict>
+    </dict>
+  </dict>
+
+</dict>
+</plist>
             </array>
         </config-file>
         
